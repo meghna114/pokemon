@@ -1,0 +1,67 @@
+/* src/AuthBox.css */
+.auth-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.auth-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.auth-input {
+  margin-bottom: 15px;
+}
+
+.auth-input label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.auth-input input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.auth-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.auth-button, .auth-link {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 48%; /* Adjust width to fit buttons on the same line */
+}
+
+.auth-button {
+  background-color: #007bff;
+  margin-right: 10%; /* Increased space between buttons */
+}
+
+.auth-button:hover {
+  background-color: #0056b3;
+}
+
+.auth-link {
+  background-color: #28a745;
+  margin-left: 10%; /* Increased space between buttons */
+}
+
+.auth-link:hover {
+  background-color: #218838;
+}

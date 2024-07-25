@@ -1,0 +1,32 @@
+/* src/PokemonCard.css */
+.pokemon-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+}
+
+.pokemon-image {
+  width: 100px;
+  height: 100px;
+}
+
+.pokemon-name {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase; /* Ensure uppercase styling */
+}
+
+.pokemon-height,
+.pokemon-weight {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}

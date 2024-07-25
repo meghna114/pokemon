@@ -1,0 +1,58 @@
+.large-card-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px; /* Added padding for better spacing */
+  position: relative; /* Ensure the logout button is positioned correctly */
+}
+
+.large-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%; /* Ensure card fits within the viewport width */
+  width: 400px; /* Fixed width for large card */
+  text-align: center; /* Center align text */
+}
+
+.large-card-image {
+  width: 100%; /* Ensure image fits within the card */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 400px; /* Limit height if needed */
+  border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.large-card-name {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.large-card-height,
+.large-card-weight {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.logout-button {
+  position: absolute; /* Positioned absolutely within the container */
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #dc3545; /* Red background for logout */
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
