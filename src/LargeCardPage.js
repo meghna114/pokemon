@@ -2,7 +2,7 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { logout } from './features/userSlice'; // Import the logout action if you have one
+import { logout } from './features/userSlice'; // Import the logout action 
 import './LargeCardPage.css';
 
 const LargeCardPage = () => {
