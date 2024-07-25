@@ -1,11 +1,11 @@
-// src/features/userSlice.js
+
 import { createSlice } from '@reduxjs/toolkit';
 
 const userSlice = createSlice({
   name: 'user',
   initialState: {
     currentUser: null,
-    users: [], // Assuming you have a list of users in state for simplicity
+    users: [], // Assuming list of users 
   },
   reducers: {
     login: (state, action) => {
